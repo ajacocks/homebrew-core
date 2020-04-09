@@ -21,7 +21,7 @@ class Wxmac < Formula
   # Adjust assertion which fails for wxGLCanvas due to changes in macOS 10.14.
   # Patch taken from upstream WX_3_0_BRANCH:
   # https://github.com/wxWidgets/wxWidgets/commit/531fdbcb64b265e6f24f1f0cc7469f308b9fb697
-  patch :DATA
+  # patch :DATA
 
   def install
     args = [
